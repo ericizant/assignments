@@ -1,0 +1,87 @@
+/* You are going to recreate the front page of a newspaper using block and inline elements.
+
+Your newspaper should have:
+
+A header with the name of your newspaper.
+
+A title for the front page article.
+
+A three columned body using p tags. (Hint: you will need to alter the display characteristics).
+
+Several words in the body should be individually styled using inline elements. (i.e. highlighting, bolding, or text-color change).
+
+An image within the body of the article.
+
+Come up with your own story. It can be anything, including satire or the recreation of an existing article somewhere. Make sure it looks nice so that someone could obviously tell it's suppose to be a newspaper. */
+
+body {
+    background-color: white;
+}
+
+.header {
+    background-color: #2a2f32;
+    border: 2px solid black;
+}
+
+#header {
+    text-align: center;
+    font-size: 50px;
+    line-height: 30px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    background-color: #2a2f32;
+    color: gold;
+}
+
+#title {
+    text-align: center;
+    line-height: 40px;
+    color: green;
+    background-color: #eaeaea;
+}
+
+#byline {
+    margin-top: 2px;
+    font-size: italic;
+    font-size: 16px;
+}
+
+.article {
+    background-color: white;
+    margin: auto;
+    width: 100%;
+    height: 1068px;
+}
+
+.row {
+    width: 100%;
+    display: table;
+}
+
+.col {
+    width: 30%;
+    display: inline-block;
+    padding: 10px;
+}
+
+p {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 23px;
+}
+
+p .row {
+    margin-top: 0px;
+}
+
+.col > p {
+    font-size: 20px;
+}
+
+img {
+    float: left;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    height: 45%;
+    width: 45%;
+    transform: translateY(1%);
+}
