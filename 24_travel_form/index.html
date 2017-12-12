@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie-edge">
+    <title>Travel Form</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">
+</head>
+
+<body class="container-fluid">
+    <h1 class="text">Eric Airlines</h1>
+    <div>
+        <form class="text" id="form">
+            <input type="text" placeholder="First Name" id="ftName" />
+            <input type="text" placeholder="Last Name" id="lName" />
+            <input type="number" placeholder="Age" id="age" />
+            <span>Gender:</span>
+            <input type="radio" name="gender" value="Male" id="genderMale">Male</input>
+            <input type="radio" name="gender" value="Female" id="genderFemale">Female</input>
+            <input type="radio" name="gender" value="Other" id="genderOther">Other</input>
+        </div>
+        <div class="row2">
+            <select id="destination">
+                    <option value="Atlanta" id="destAtlanta">Atlanta</option>
+                    <option value="Berlin" id="destBerlin">Berlin</option>
+                    <option value="Buenos Aires" id="destBA">Buenos Aires</option>
+                    <option value="Denver" id="destHDenver">Denver</option>
+                    <option value="Hawaii" id="destHawaii">Hawaii</option>
+                    <option value="Hong Kong" id="destHK">Hong Kong</option>
+                    <option value="Las Vegas" id="destLV">Las Vegas</option>
+                    <option value="London" id="destLondon">London</option>
+                    <option value="Los Angeles" id="destLA">Los Angeles</option>
+                    <option value="Madrid" id="destMadrid">Madrid</option>
+                    <option value="Moscow" id="destMoscow">Moscow</option>
+                    <option value="Paris" id="destParis">Paris</option>
+                    <option value="Lima" id="destLima">Lima</option>
+                    <option value="Rio de Janiero" id="destRio">Rio de Janiero</option>
+                    <option value="Rome" id="destRome">Rome</option>
+                    <option value="Salt Lake City" id="destSLC">Salt Lake City</option>
+                    <option value="San Francisco" id="destSFC">San Francisco</option>
+            </select>
+            <span>Dietary Restrictions:</span>
+            <input type="checkbox" name="dietary" value="Vegetarian">
+            <span>Vegetarian</span>
+            <input type="checkbox" name="dietary" value="Kosher">
+            <span>Kosher</span>
+            <input type="checkbox" name="dietary" value="Lactose-Free">
+            <span>Lactose-Free</span>
+        </div>
+        <div>
+            <button type="input" value="submit" id="submit"></button>
+        </div>
+    </form>
+    <script type="text/javascript" src="script.js"></script>
+</body>
+
+</html>

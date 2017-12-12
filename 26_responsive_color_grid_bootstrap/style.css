@@ -1,0 +1,34 @@
+body {
+    width: 100%;
+    height: 100%;
+}
+
+#pink {
+    background-color: pink;
+    height: 11em;
+    border: 5px solid white;
+}
+
+#deepPink {
+    background-color: deeppink;
+    height: 11em;
+    border: 5px solid white;
+}
+
+#lightBlue {
+    background-color: lightblue;
+    height: 11em;
+    border: 5px solid white;
+}
+
+#yellowGreen {
+    background-color: yellowgreen;
+    height: 11em;
+    border: 5px solid white;
+}
+
+#tomato {
+    background-color: tomato;
+    height: 11em;
+    border: 5px solid white;
+}
