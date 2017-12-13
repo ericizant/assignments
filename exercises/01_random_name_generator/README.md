@@ -1,4 +1,4 @@
-If Statement Olympics
+Random Name Generator
 ====================
 
-In this exercise we tested our ability to write Javascript IF statements.
+In our first exercise we created a random name generator in Javascript with the help of our instructors.
