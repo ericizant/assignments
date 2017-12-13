@@ -1,4 +1,4 @@
-Bugs on a Plane
+First Bootstrap Warm-Up
 ====================
 
-For this exercise we downloaded a repository and corrected the various bugs in its HTML and Javascript files.
+For this warm-up exercise we created a very simple website using Bootstrap, exploring some of its features.
