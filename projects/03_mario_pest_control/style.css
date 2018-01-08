@@ -1,0 +1,193 @@
+body {
+    background-image: url(images/background.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: bottom;
+}
+
+h1 {
+    background-color: red;
+    width: 350px;
+    text-align: center;
+    margin: auto;
+    border: 3px solid black;
+    border-radius: 25px;
+}
+
+#intro {
+    background-color: pink;
+    font-weight: bold;
+    width: 280px;
+    height: 250px;
+    font-size: 16x;
+    font-family: cursive;
+    font-weight: bold;
+    margin-top: 8px;
+    margin-left: 16px;
+    border: 3px solid black;
+    border-radius: 5px;
+}
+
+#default>h5 {
+    width: 180px;
+    background-color: green;
+    text-align: center;
+    font-weight: bolder;
+    position: relative;
+    left: 80px;
+    padding-left: 3px;
+    border: 3px solid black;
+    margin-top: 8px;
+    border-radius: 10px;
+}
+
+#default>p {
+    width: 160px;
+    background-color: paleturquoise;
+    font-size: 12px;
+    font-weight: bold;
+    position: relative;
+    left: 90px;
+    padding-left: 3px;
+    border: 2px solid black;
+    margin-bottom: 8px;
+    border-radius: 5px;
+}
+
+
+/* main */
+
+h3 {
+    width: 225px;
+    background-color: red;
+    text-align: center;
+    font-weight: bolder;
+    border: 3px solid black;
+    margin-top: 5px;
+    position: relative;
+    right: 10px;
+    border-radius: 15px;
+}
+
+input {
+    width: 200px;
+    text-align: center;
+    margin: 2px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.button {
+    width: 200px;
+    text-align: center;
+    font-weight: bold;
+    background-color: red;
+    margin: 5px;
+    border: 3px solid black;
+    border-radius: 10px;
+}
+
+#goomba {
+    height: 400px;
+    position: relative;
+    left: 30px;
+}
+
+#bobomb {
+    height: 400px;
+    position: relative;
+    left: 30px;
+}
+
+#cheepCheep {
+    height: 400px;
+    position: relative;
+    left: 30px;
+}
+
+#totals {
+    position: relative;
+    left: 30px;
+}
+
+#totalsTop {
+    height: 200px;
+}
+
+.totals>p {
+    width: 200px;
+    font-size: 14px;
+    text-align: left;
+    font-weight: bold;
+    background-color: paleturquoise;
+    margin: 5px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+#totalsBottom {
+    height: 200px;
+    margin-top: 40px;
+}
+
+#footer {
+    background-color: green;
+    height: 360px;
+    border: 5px solid black;
+    border-radius: 5px;
+}
+
+#footer-text-box {
+    margin-left: 200px;
+    margin-top: 125px;
+    width: 200px;
+    height: 100px;
+}
+
+.footer-text {
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 16px;
+}
+
+
+/* images */
+
+#mushroomImg {
+    width: 300px;
+    height: 300px;
+    border: 2px solid black;
+}
+
+#flowerImg {
+    width: 300px;
+    height: 300px;
+    border: 2px solid black;
+}
+
+#goombaImg {
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+}
+
+#bobombImg {
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+}
+
+#cheepCheepImg {
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+}
+
+#pipeImg1 {
+    border: 2px solid black;
+}
+
+#pipeImg2 {
+    border: 2px solid black;
+    display: inline-block;
+}

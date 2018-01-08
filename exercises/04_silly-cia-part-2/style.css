@@ -1,0 +1,38 @@
+body {
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+h1 {
+    color: darkgreen;
+}
+
+h1, h2 {
+    font-family: Georgia;
+    text-align: center; 
+}
+.main img {
+    float: left;
+    padding: 10px;
+}
+
+p {
+    font-size: 20px;
+    line-height: 25px;
+}
+
+ul {
+    font-size: 20px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#alsoLike {
+    text-transform: uppercase;
+}

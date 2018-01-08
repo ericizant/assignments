@@ -1,0 +1,88 @@
+/* Without using the bootstrap grid system, create a website that looks like this:
+
+You don't have to worry about making it responsive at this point.
+
+Here are the colors:
+
+#F5C6D6
+#EE2E84
+#85CFD8
+#8DC63F
+#E76E34
+
+Hints:
+
+It's easiest to get the even white "spacing" by actually using a thick, white border around the shapes.
+
+In order to use percentage widths and not have them wrap you'll need to add the following line to the top of your CSS: */
+
+
+/* box stylings */
+
+* {
+    box-sizing: border-box;
+    font-size: 0px;
+}
+
+body {
+    height: 100vh;
+}
+
+.wrapper {
+    position: relative;
+    top: 47%;
+    transform: translateY(-50%);
+    width: 60%;
+    height: 75vh;
+    margin: auto;
+}
+
+.row {
+    height: 25%;
+}
+
+.full {
+    width: 100%;
+}
+
+.col {
+    height: 100%;
+    display: inline-block;
+    margin: auto;
+    border: white solid 6px;
+}
+
+.quarter {
+    width: 25%;
+}
+
+.half {
+    width: 50%;
+}
+
+.three-fourths {
+    width: 75%;
+}
+
+
+/* colors */
+
+.pink {
+    background-color: #F5C6D6;
+}
+
+.hot-pink {
+    background-color: #EE2E84;
+}
+
+.blue {
+    background-color: #85CFD8;
+}
+
+.green {
+    background-color: #8DC63F
+}
+
+.orange {
+    background-color: #E76E34;
+}

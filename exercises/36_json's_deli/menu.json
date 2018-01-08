@@ -1,0 +1,83 @@
+{
+
+    "appetizers": {
+
+        "pickle": {
+            "name": "Pickle",
+            "ingredients": ["salt", "vinegar", "cucumber"],
+            "description": "Classic pickle flavor!"
+        },
+        "soup": {
+            "name": "Soup",
+            "ingredients": ["noodles", "chicken-stock", "carrots", "peas", "salt", "chicken", "potatos"],
+            "description": "Soup of the Day: Hearty Chicken Noodle"
+        },
+        "salad": {
+            "name": "Salad",
+            "ingredients": ["lettue", "tomatos", "onions", "salad dressing", "mozzarella cheese"],
+            "description": "Garden salad with your choice of dressing."
+        }
+
+    },
+
+    "cold sandwiches": {
+
+        "turkey": {
+            "name": "Turkey Sandwich",
+            "ingredients": ["bread", "lettuce", "cheese", "turkey", "tomatos", "cranberry sauce"],
+            "description": "A classic turkey sandwich."
+        },
+        "ham": {
+            "name": "Ham Sandwich",
+            "ingredients": ["bread", "lettuce", "cheese", "ham", "tomatos", "mustard"],
+            "description": "A classic ham sandwich."
+        }
+
+    },
+
+    "hot sandwiches": {
+
+        "blt": {
+            "name": "BLT",
+            "ingredients": ["bread", "lettuce", "bacon", "tomatos"],
+            "description": "A classic BLT sandwich."
+        },
+        "roast beef": {
+            "name": "Ham Sandwich",
+            "ingredients": ["bread", "lettuce", "cheese", "roast-beef", "tomatos", "mustard"],
+            "description": "A classic roast-beef sandwich."
+        }
+
+    },
+
+    "dessert": {
+
+        "chocoloate cake": {
+            "name": "Chocolate Cake",
+            "ingredients": ["flour", "salt", "sugar", "eggs", "vegetable oil", "chocolate"],
+            "description": "Rich chocolate cake."
+        },
+        "creme brulee": {
+            "name": "Creme Brulee",
+            "ingredients": ["egg", "cream", "sugar"],
+            "description": "Delicious creme brulee!"
+        }
+
+    },
+
+    "drinks": {
+
+        "soda": {
+            "name": "Soda",
+            "ingredients": ["carbonated water", "soda mixture"],
+            "description": "A selection of soda."
+        },
+        "juice": {
+            "name": "Juice",
+            "ingredients": ["fruit", "sugar", "water"],
+            "description": "An assortmnt of juices."
+        }
+
+    }
+
+}

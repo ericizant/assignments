@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="V School Projects">
+    <meta name="author" content="Eric Izant">
+    <title>V School JavaScript Precourse Projects</title>
+    <link rel="icon" href="../../favicon.ico">
+    <link href="bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+    <style>
+      .colorChanger {
+        border: 1px solid #323643;
+        color: black;
+        background-color: green;
+        padding: 10px 24px
+        border: 1px solid black;
+        border-radius: 50px;
+        margin: 20px;
+      }
+      .box {
+        margin-top: 20px;
+        height: 300px;
+        width: 100%;
+        border: 1px solid black;
+        border-radius: 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="site-wrapper">
+      <div class="container top">
+        <h1 class="title">V School</h1>
+        <nav>
+          <ul class="navbar">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Projects</a></li>
+         </ul>
+        </nav>
+      </div>
+    </div>
+    <hr>
+    <div class="container">
+      <h2>StopWatch</h2>
+      <h3 id="output">00:00:00</h3>
+      <div class="btn-group" id="controls">
+        <button type="button" id="startPause" class="timerButtons" onclick="startPause()">Start</button>
+        <button type="button" id="reset" class="timerButtons" onclick="reset()">Clear</button>
+      </div>
+    </div>
+    <div class="box"></div>
+    <button class="colorChanger" onclick='clickMe()'>Click Me</button>
+    <script>
+    var myColors = ['red', 'purple', '#E84751', 'blue', 'orange', '#323643'];
+    function clickMe() {
+      var randomize = Math.floor(Math.random() * myColors.length);
+      $('.box').css("background-color", myColors[randomize]);
+      }
+    </script>
+    <script src="script.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  </body>
+</html>

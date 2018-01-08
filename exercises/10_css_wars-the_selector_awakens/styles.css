@@ -1,0 +1,35 @@
+body {
+    background-color: #111111;
+}
+
+section {
+    margin: 10px;
+}
+
+section span {
+    color: #49DAFF;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+h1 {
+    color: #E2E80F;
+    text-align: center;
+    font-size: 40px;
+}
+
+p {
+    color: #eeeeee;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+#film-description {
+    font-style: italic;
+    font-size: 16px;
+    text-align: center;
+    line-height: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+    cursor: pointer;
+}

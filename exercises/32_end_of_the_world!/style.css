@@ -1,0 +1,104 @@
+html {
+  box-sizing: border-box;
+  margin: auto;
+}
+
+body {
+  background-color: black;
+  font-family: Roboto, sans-serif;
+}
+
+.wrapper {
+  width: 100%;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-auto-rows: 20% 45% 10% 25%;
+  grid-gap: 1%;
+  grid-template-areas: "he he he he he he" ". days hours mins secs ." ". d h m s ." "f f f f f f";
+}
+
+#header {
+  grid-area: he;
+  background-image: url(clock.jpg);
+  background-repeat: repeat-x;
+  background-size: auto;
+}
+
+#days {
+  grid-area: days;
+  color: black;
+  background-color: crimson;
+  font-size: 16em;
+  text-align: center;
+  border: 5px solid black;
+  border-radius: 2%;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, .5);
+}
+
+#hours {
+  grid-area: hours;
+  color: black;
+  background-color: crimson;
+  font-size: 16em;
+  text-align: center;
+  border: 5px solid black;
+  border-radius: 2%;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, .5);
+}
+
+#minutes {
+  grid-area: mins;
+  color: black;
+  background-color: crimson;
+  font-size: 16em;
+  text-align: center;
+  border: 5px solid black;
+  border-radius: 2%;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, .5);
+}
+
+#seconds {
+  grid-area: secs;
+  color: black;
+  background-color: crimson;
+  font-size: 16em;
+  text-align: center;
+  border: 5px solid black;
+  border-radius: 2%;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, .5);
+}
+
+#d {
+  grid-area: d;
+}
+
+#h {
+  grid-area: h;
+}
+
+#m {
+  grid-area: m;
+}
+
+#s {
+  grid-area: s;
+}
+
+p {
+  color: black;
+  background-color: crimson;
+  font-size: 3em;
+  text-align: center;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, .5);
+  border: 5px solid black;
+  border-radius: 2%;
+  margin: 0;
+}
+
+#footer {
+  grid-area: f;
+  background-image: url(clock.jpg);
+  background-repeat: repeat-x;
+  background-size: auto;
+}

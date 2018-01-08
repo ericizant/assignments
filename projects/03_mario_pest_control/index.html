@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Mario Pest Control</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+	<header>
+		<h1>Mario Pest Control</h1>
+	</header>
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-lg">
+				<img src="images/mushroom.jpg" alt="Mushroom" id="mushroomImg">
+			</div>
+			<div id="intro" class="col-lg">
+				<p>Princess Peach has a huge infestation of Goombas, Bob-ombs, and Cheep-cheeps, and has commissioned Mario to take care
+					of her pest problem. Mario did the job, but he is having trouble keeping track of how many he has caught and has asked
+					you to build him a website that keeps track of how many baddies he caught for Princess Peach so he can send her a bill
+					later.
+				</p>
+			</div>
+			<div id="default" class="col-lg">
+				<h5>Normal Pricing</h5>
+				<p>Goombas: 5 Coins</p>
+				<p>Bob-ombs: 7 Coin</p>
+				<p>Cheep-Cheeps: 11 Coins</p>
+				<h5>Baddies Caught</h5>
+				<p>Goombas: 12</p>
+				<p>Bob-ombs: 8</p>
+				<p>Cheep-Cheeps: 5</p>
+			</div>
+			<div class="col-lg-3">
+				<img src="images/flower.png" alt="Fire-Flower" id="flowerImg">
+			</div>
+		</div>
+	</div>
+	<div class="container-fluid">
+		<div class="row">
+			<div id="goomba" class="col-lg">
+				<h3>Goombas</h3>
+				<img src="images/goomba.png" alt="Goomba" id="goombaImg">
+				<br />
+				<input id="goombaCaught" type="number" placeholder="Quantity Caught">
+				<br />
+				<input id="goombaValue" type="number" placeholder="Price per Goomba">
+				<br />
+				<button type="button" class="button" id="addGoomba">Calculate</button>
+			</div>
+			<div id=“bobomb” class="col-lg">
+				<h3>Bob-ombs</h3>
+				<img src="images/bobomb.jpg" alt="Bob-omb" id="bobombImg">
+				<br />
+				<input id="bobombCaught" type="number" placeholder="Quantity Caught">
+				<br />
+				<input id="bobombValue" type="number" placeholder="Price per Bob-omb">
+				<br />
+				<button type="button" class="button" id="addBobomb">Calculate</button>
+			</div>
+			<div id=“cheepCheep” class="col-lg">
+				<h3>Cheep-Cheeps</h3>
+				<img src="images/cheepCheep.jpg" alt="Cheep-cheep" id="cheepCheepImg">
+				<br />
+				<input id="cheepCheepCaught" type="number" placeholder="Quantity Caught">
+				<br />
+				<input id="cheepCheepValue" type="number" placeholder="Price per Cheep-Cheep">
+				<br />
+				<button type="button" class="button" id="addCheepCheep">Calculate</button>
+			</div>
+			<div id="totals" class="col-lg">
+				<div id="totalsTop" class="totals">
+					<h3>Total Caught</h3>
+					<p id="goombaSubtotal">Goombas: </p>
+					<p id="bobombSubtotal">Bob-ombs: </p>
+					<p id="cheepCheepSubtotal">Cheep-Cheeps: "</p>
+				</div>
+				<div id="totalsBottom" class="totals">
+					<button class="button" id="addTotals">Calculate Totals</button>
+					<p id="totalCaught">Total Caught: </p>
+					<p id="totalPrice">Total Price: </p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-lg-3">
+				<img src="images/pipe.png" alt="Mushroom" id="pipeImg1">
+			</div>
+			<div id="footer" class="col-lg-6">
+				<div id="footer-text-box">
+					<p class="footer-text">mario@mariobros.com</p>
+					<p class="footer-text">http://www.mariobros.com</p>
+					<p class="footer-text">Brooklyn, New York</p>
+				</div>
+			</div>
+			<div class="col-lg-3">
+				<img src="images/pipe.png" alt="Mushroom" id="pipeImg2">
+			</div>
+		</div>
+	</div>
+	<audio autoplay loop>
+		<source src="images/mariomusic.mp3" type="audio/mpeg">
+	</audio>
+	<script type="text/javascript" src="script.js"></script>
+</body>
+
+</html>
