@@ -1,4 +1,5 @@
 Colored Info Boxes
+------------------
 
 Create a component that you can reuse 10 times. This component should be able to receive props for:
 
