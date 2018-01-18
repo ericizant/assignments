@@ -1,0 +1,19 @@
+.uglies-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 100px;
+}
+
+.form-wrapper {
+    background-color: teal;
+    padding: 50px 15%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.input {
+    width: 200px;
+    height: 20px;
+}

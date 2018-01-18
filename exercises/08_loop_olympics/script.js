@@ -33,7 +33,7 @@ for (i = 0; i <= 9; i++) {
     (arr.push(i));
 }
 
-// console.log(arr);
+console.log(arr);
 
 // 2. Write a for loop that prints to the console only even numbers 0 through 100.
 

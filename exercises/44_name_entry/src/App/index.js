@@ -1,34 +1,65 @@
 import React, { Component } from "react";
-import Nav from "./Nav";
-import Div from "./Div";
-import Gallery from "./Gallery";
+import ListItem from "./ListItem";
+import "./index.css";
 
-function App(props) {
-    let links = [{
-        href: "/home",
-        name: "Home"
-    }, {
-        href: "/about",
-        name: "About"
-    }, {
-        href: "/contact",
-        name: "Contact"
-    }];
-    return (
-        <div>
-            <Nav
-                links={links}
-                parentStyle={{ backgroundColor: "maroon", height: "350px" }}
-                childStyle={{ color: "white" }}>
-            </Nav>
-            <Nav
-                links={links}
-                parentStyle={{ backgroundColor: "blue", height: "350px" }}
-                childStyle={{ color: "white" }}>
-            </Nav>
-            {}
-        </div>
-    )
+class App extends Component {
+    constructor(props) {
+        super(props);
+        this.state = {
+            names: [],
+            inputName: ""
+        }
+        this.handleChange = this.handleChange.bind(this);
+        this.handleSubmit = this.handleSubmit.bind(this);
+        this.handleKeyPress = this.handleKeyPress.bind(this);
+        this.reset = this.reset.bind(this);
+    }
+
+    handleChange(e) {
+        this.setState({ inputName: e.target.value });
+    }
+
+    handleSubmit(e) {
+        e.preventDefault();
+        let { inputName } = this.state;
+        this.setState(prevState => {
+            return {
+                names: [...prevState.names, inputName]
+            }
+        });
+        this.clearInputs();
+    }
+
+    handleKeyPress(e) {
+        if (e.keyCode === 13) {
+            this.handleSubmit(e);
+        }
+    }
+
+    clearInputs() {
+        this.setState({ inputName: "" });
+    }
+
+    reset() {
+        this.setState({ names: [], inputName: "" });
+    }
+
+    render() {
+        let { names, inputName } = this.state;
+        return (
+            <form className="app-wrapper">
+                <input className="name-input" type="text" onChange={this.handleChange} value={inputName} name="inputName" placeholder="Full Name" />
+                <h1>{inputName}</h1>
+                <button className="addName" type="submit" onClick={this.handleSubmit} onKeyPress={this.handleKeyPress}>add name</button>
+                <ol className="nameList">
+                    {names.map((name, index) => {
+                        return <ListItem name={name} key={index}></ListItem>
+                    })}
+                </ol>
+                <button onClick={this.reset}>clear list</button>
+            </form>
+        )
+    }
 }
 
 export default App;

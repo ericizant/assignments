@@ -7,21 +7,21 @@ function App() {
         <div className="app-wrapper">
             <Content boxProps={{
                 title: "Dog",
-                subtitle: "Mammal",
+                subtitle: "Canine",
                 information: "Dogs have four legs and padded paws. They are cute and fun. They bark."
             }}
                 parentStyle={{ backgroundColor: "red", height: "300px", width: "300px", textAlign: "center", padding: "20px" }}>
             </Content>
             <Content boxProps={{
                 title: "Cat",
-                subtitle: "Mammal",
+                subtitle: "Feline",
                 information: "A small domesticated carnivorous mammal with soft fur, a short snout, and retractile claws. It is widely kept as a pet or for catching mice, and many breeds have been developed."
             }}
                 parentStyle={{ backgroundColor: "orange", height: "300px", width: "300px", textAlign: "center", padding: "20px" }}>
             </Content>
             <Content boxProps={{
                 title: "Betta Fish",
-                subtitle: "Cute, furry animals",
+                subtitle: "Fish",
                 information: "The Siamese fighting fish, also sometimes colloquially known as the betta, is a species in the gourami family which is popular as an aquarium fish. Bettas can be territorial fish and are prone to high levels of aggression towards each other."
             }}
                 parentStyle={{ backgroundColor: "yellow", height: "300px", width: "300px", textAlign: "center", padding: "20px" }}>
@@ -42,14 +42,14 @@ function App() {
             </Content>
             <Content boxProps={{
                 title: "Ferret",
-                subtitle: "Mammal",
+                subtitle: "Polecat",
                 information: "A domesticated polecat kept as a pet or used, especially in Europe, for catching rabbits. It is typically albino or brown."
             }}
                 parentStyle={{ backgroundColor: "purple", height: "300px", width: "300px", textAlign: "center", padding: "20px" }}>
             </Content>
             <Content boxProps={{
                 title: "Cobra",
-                subtitle: "Reptile",
+                subtitle: "Snake",
                 information: "A highly venomous snake native to Africa and Asia that spreads the skin of its neck into a hood when disturbed."
             }}
                 parentStyle={{ backgroundColor: "grey", height: "300px", width: "300px", textAlign: "center", padding: "20px" }}>
