@@ -1,4 +1,3 @@
-Anti Caps
-====================
-
-For this warm-up exercise we wrote a Javascript function called that accepts a string and returns a string, but with one catch: This function inverts the capitalization of each letter in the returned string!
+or35
+----
+Write a JavaScript function that returns true if the given non-negative number is a multiple of 3 or a multiple of 5 (hint: use the % "mod" operator).

@@ -1,4 +1,3 @@
-Anti Caps
-====================
-
-For this warm-up exercise we wrote a Javascript function called that accepts a string and returns a string, but with one catch: This function inverts the capitalization of each letter in the returned string!
+Array Reduce Exercises
+----------------------
+Use the built-in JavaScript .reduce() method on an array.

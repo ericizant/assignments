@@ -6,7 +6,7 @@ function fizzBuzz(n) {
         } else if (i % 3 === 0) {
             numArray.push("fizz")
         } else if (i % 5 === 0) {
-            numArray.push("buzz") 
+            numArray.push("buzz")
         } else {
             numArray.push(String(i));
         }

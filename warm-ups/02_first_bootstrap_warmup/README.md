@@ -1,4 +1,8 @@
 First Bootstrap Warm-Up
-====================
+-----------------------
+Using Bootstrap, create a site that uses the following bootstrap components:
 
-For this warm-up exercise we created a very simple website using Bootstrap, exploring some of its features.
+*"Navbar"
+*3 "Buttons" of various colors & sizes.
+*An "<h1>" tag that is centered on the page.
+*2 "Glyphicons" of any kind, anywhere on the page.

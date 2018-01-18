@@ -1,4 +1,11 @@
-Anti Caps
-====================
+Palindrome Finder
+-----------------
+Write a function that accepts a string as an argument and returns true if the string is a palindrome (the string is the same forward and backward), or false if it is not.
 
-For this warm-up exercise we wrote a Javascript function called that accepts a string and returns a string, but with one catch: This function inverts the capitalization of each letter in the returned string!
+A string is still considered a palindrome despite letter capitalization, spaces, or punctuation.
+
+Examples:
+
+isPalindrome("Star Rats!");  // true
+isPalindrome("palindrome");  // false
+isPalindrome("I madam, I made radio! So I dared! Am I mad?? Am I?!");  // true

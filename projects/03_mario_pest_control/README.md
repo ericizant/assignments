@@ -1,6 +1,44 @@
-Projects
-====================
+Mario Pest Control
+------------------
+Princess Peach has a huge infestation of Goombas, Bob-ombs, and Cheep-cheeps, and has commissioned Mario to take care of her pest problem. Mario did the job, but he is having trouble keep track of how many he has caught and has asked you to build him a website that keeps track of how many baddies he caught for Princess Peach so he can send her a bill.
 
-Projects are assignments specifically geared towards testing our ability to demonstrate an understandind in a collection of topics. Projects represent a culmination both of topics that have been recently learned as well as those that have already been tested in the past. Passing a project is akin to "earning a merit badge" or "leveling up." As time progresses, the projects become more intense, as they naturally build off of everything we've learned up to the point of the project.
+Pricing:
 
-In the beginning, they're typically due in 1 or 2 days. Towards the end of the course, we're usually given 1 to 2 weeks to complete a project.
+*Goombas: 5 Coins
+*Bob-ombs: 7 Coins
+*Cheep-cheeps: 11 Coins
+
+Baddies Caught:
+
+*The number of baddies caught will be entered into an input field
+
+Total Price:
+
+*This will be dynamicly depending on how many baddies were caught.
+
+Project Requirements:
+
+The website must contain the following:
+
+*A list displaying each baddie by type.
+
+Each list item must show:
+
+*Baddie image
+*Baddie name
+*Total amount caught of that type.
+*Input box to enter the total price for all caught of that type.
+*A total price at the bottom that adds up the total cost of all the baddies caught (must use Javascript for this math--no hard-coded values).
+
+A footer showing:
+
+*Mario's email address
+*Mario's company website url
+*Mario's physical address
+*A large title at the top of the page entitled "Mario Pest Control"
+
+Passing Criteria: Visual Inspection by Instructor
+
+Extra Credit:
+
+Build your Mario Pest Control website to be responsive, meaning it looks great when shrunk down to the screen size of a smart phone.
