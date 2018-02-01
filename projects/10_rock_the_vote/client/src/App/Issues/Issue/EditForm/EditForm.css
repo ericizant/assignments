@@ -1,0 +1,7 @@
+.editForm-wrapper {
+    border: 1px solid black;
+}
+
+input {
+    width: 15em;
+}

@@ -1,11 +1,17 @@
 import React from 'react';
 
+//webpage features
+import Footer from './components/Footer/Footer';
+import Header from './components/Header/Header';
+//styling
 import './index.css';
 
-function App() {
+const App = (props) => {
     return (
-        <div>
-            <h1>Personal React/Redux Site</h1>
+        <div className='app-wrapper'>
+            <Header />
+            Home Page
+            <Footer />
         </div>
     )
 }

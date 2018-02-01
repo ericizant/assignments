@@ -1,12 +1,13 @@
-import React, { Component } from "react";
-import "./about.css";
+import React from 'react';
 
-export default class About extends Component {
-    render() {
-        return (
-            <div className="about-wrapper">
-                Contact us at (801) PEE-POOP
-            </div>
-        )
-    }
+import './About.css';
+
+function About(props) {
+    return (
+        <div className='about-wrapper'>
+            Contact us at (801) PEE-POOP
+        </div>
+    )
 }
+
+export default About;

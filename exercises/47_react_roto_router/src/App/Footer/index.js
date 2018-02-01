@@ -1,9 +1,10 @@
-import React from "react";
-import "./footer.css";
+import React from 'react';
 
-function Footer() {
+import './Footer.css';
+
+function Footer(props) {
     return (
-        <div className="footer-wrapper">
+        <div className='footer-wrapper'>
             Adios amigos!
         </div>
     )

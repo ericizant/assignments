@@ -1,0 +1,8 @@
+.footer-wrapper {
+    width: 100%;
+    height: 2em;
+    color: dark seagreen;
+    background-color: orange;
+    text-align: center;
+    border: solid black 1px;
+}

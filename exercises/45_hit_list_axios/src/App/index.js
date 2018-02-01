@@ -1,4 +1,5 @@
 import React from "react";
+
 import HitList from "./HitList";
 import "./index.css";
 

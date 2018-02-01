@@ -1,12 +1,13 @@
-import React, { Component } from "react";
-import "./services.css";
+import React from 'react';
 
-export default class Services extends Component {
-    render() {
-        return (
-            <div className="services-wrapper">
-                Here are all the services we offer:
-            </div>
-        )
-    }
+import './Services.css';
+
+function Services(props) {
+    return (
+        <div className='services-wrapper'>
+            Here are all the services we offer:
+        </div>
+    )
 }
+
+export default Services;
