@@ -1,7 +1,6 @@
 * {
     margin: 0;
     box-sizing: border-box;
-    font-family: 'Montserrat', sans-serif;
 }
 
 html,
@@ -12,10 +11,6 @@ body {
 
 body {
     color: black;
-    background-color: orange;
-    font-family: 'Roboto Condensed', sans-serif;
-}
-
-.app-wrapper {
-    text-align: center;
+    background-color: navajowhite;
+    font-family: 'Rajdhani', sans-serif;
 }

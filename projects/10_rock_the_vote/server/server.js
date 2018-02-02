@@ -1,10 +1,8 @@
 const express = require('express');
 const mongoose = require('mongoose');
 const bodyParser = require('body-parser');
-
-const voteRouter = require('./routes/voteRouter.js');
-
 const app = express();
+const voteRouter = require('./routes/voteRouter.js');
 
 app.use(bodyParser.json());
 app.use('/votes', voteRouter);

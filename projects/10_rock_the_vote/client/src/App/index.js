@@ -1,6 +1,6 @@
 import React from 'react';
 
-import Issues from './Issues';
+import IssueData from './IssueData';
 
 import './index.css';
 
@@ -10,7 +10,7 @@ const App = (props) => {
             <header className='main-wrapper'>
                 <h1>Rock the Vote!!!</h1>
             </header>
-            <Issues />
+            <IssueData />
             <footer className='main-wrapper'>
                 <h5>&copy;2018</h5>
             </footer>

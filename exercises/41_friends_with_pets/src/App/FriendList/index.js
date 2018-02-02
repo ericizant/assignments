@@ -1,4 +1,5 @@
 import React from "react";
+
 import Friends from './Friends';
 import './index.css';
 
@@ -58,6 +59,7 @@ function FriendList(props) {
         ]
     }
     ];
+
     return (
         <div className="friendlist-wrapper">
             {friends.map((friend, index) => {

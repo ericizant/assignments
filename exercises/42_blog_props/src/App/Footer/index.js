@@ -1,6 +1,6 @@
 import React from "react";
 
-import "./Footer.css"
+import "./Footer.css";
 
 import facebook from "./facebookcon.png";
 import twitter from "./twittercon.png";

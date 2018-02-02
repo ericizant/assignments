@@ -1,17 +1,19 @@
 import React from 'react';
+import { Switch, Route } from 'react-router-dom';
 
-//webpage features
-import Footer from './components/Footer/Footer';
-import Header from './components/Header/Header';
-//styling
+import About from './pages/About';
+import Contact from './pages/Contact';
+import Home from './pages/Home';
 import './index.css';
 
 const App = (props) => {
     return (
-        <div className='app-wrapper'>
-            <Header />
-            Home Page
-            <Footer />
+        <div>
+            <Switch>
+                <Route exact path="/" component={Home} />
+                <Route path="/About" component={About} />
+                <Route path="/Contact" component={Contact} />
+            </Switch>
         </div>
     )
 }

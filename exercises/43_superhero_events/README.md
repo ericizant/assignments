@@ -4,7 +4,7 @@ Build a React app that displays a list of superheroes with their name and image.
 
 Your app should use:
 
-*A <SuperHero/> component
-*A JSON file where all the superhero information is stored
-*.map to display the correct number of component instances (based on however many superheroes you have in your JSON file)
-*An event handler function that gets passed down to the child <SuperHero/> component
+*A '<SuperHero />' component.
+*A JSON file where all the superhero information is stored.
+*'.map()' to display the correct number of component instances (based on however many superheroes you have in your JSON file).
+*An event handler function that gets passed down to the child '<SuperHero />' component.
