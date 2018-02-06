@@ -7,3 +7,8 @@
     height: 5%;
     margin: 1em;
 }
+
+.coin-displayer {
+    display: flex;
+    flex-direction: row;
+}

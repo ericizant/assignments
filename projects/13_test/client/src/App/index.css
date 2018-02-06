@@ -1,0 +1,16 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100vh;
+}
+
+body {
+    color: black;
+    background-color: navajowhite;
+    font-family: 'Rajdhani', sans-serif;
+}

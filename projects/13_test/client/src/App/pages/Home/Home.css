@@ -1,0 +1,14 @@
+.home-wrapper {
+    color: black;
+}
+
+.bitcoin-pic {
+    width: 5%;
+    height: 5%;
+    margin: 1em;
+}
+
+.coin-layout {
+    display: flex;
+    flex-direction: row;
+}

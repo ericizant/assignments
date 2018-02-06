@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import axios from 'axios';
 
-import CoinData from './index.js';
+import CoinDisplayer from './index.js';
 
-const marketURL = 'https://api.coinmarketcap.com/v1/ticker/'
+const marketURL = 'https://api.coinmarketcap.com/v1/ticker/';
 
 //life-cycle procress
 //1)when the component mounts, make GET request
@@ -14,7 +14,7 @@ class CoinApi extends Component {
     constructor(props) {
         super(props);
         this.state = {
-            searchTerm: "b",
+            searchTerm: "",
             coins: [],
             loading: true,
             err: false,
@@ -59,7 +59,7 @@ class CoinApi extends Component {
                     :
                     <div>
                         <form>
-                            <input name='selectCoin' value={searchTerm} placeholder='Select a coin' />
+                            <input name='selectCoin' value={searchTerm} type='text' placeholder='Select a coin' />
                         </form>
                         {coins.filter(coin => {
                             console.log(coin);
@@ -72,7 +72,7 @@ class CoinApi extends Component {
                             return false;
                         }).map((coin, i) => {
                             let { name, price_usd } = coin;
-                            return <CoinData key={i} name={name} price_usd={price_usd}></CoinData>
+                            return <CoinDisplayer key={i} name={name} price_usd={price_usd}></CoinDisplayer>
                         })}
                     </div>
         );

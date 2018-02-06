@@ -1,21 +1,17 @@
-import React, { Component } from 'react';
-
-import Form from './Form';
-import Bounties from './Bounties';
-
+import React from 'react';
+import Form from './shared/Form';
+import BountyList from './BountyList';
 import './index.css';
 
-class App extends Component {
-    render() {
-        return (
-            <div className='app-wrapper'>
-                <h1>Star Wars</h1>
-                <h2>Episode X: The Original Bounty Hunter</h2>
-                <Form />
-                <Bounties />
-            </div>
-        )
-    }
-};
+const App = () => (
+    <div>
+        <div className='title'>
+            <h1>Star Wars: Episode X</h1>
+            <h2>The Original Bounty Hunter - Part 3</h2>
+        </div>
+        <Form add clear />
+        <BountyList />
+    </div>
+)
 
 export default App;

@@ -1,7 +1,5 @@
 import React from 'react';
-
 import IssueData from './IssueData';
-
 import './index.css';
 
 const App = (props) => {

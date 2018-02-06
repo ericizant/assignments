@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import axios from 'axios';
-
 import IssuesList from './IssuesList';
 
 const issuesUrl = "http://localhost:8080";
@@ -63,7 +62,7 @@ class IssueData extends Component {
                     :
                     <div>
                         {IssueData.map((IssuesList, i) => {
-                            let { title, description, voteCount } = IssuesList;
+                            let { title, description, voteCount } = this.state.props;
                             return <IssuesList key={i} title={title} description={description}></IssuesList>
                         })}
                     </div>
