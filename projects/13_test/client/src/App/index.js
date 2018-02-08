@@ -1,18 +1,19 @@
 import React from 'react';
 import { Switch, Route } from 'react-router-dom';
 
-import About from './pages/About';
-import Contact from './pages/Contact';
-import Home from './pages/Home';
 import './index.css';
+
+import Landing from './pages/Landing';
+import Main from './pages/Main';
+import Edit from './pages/Edit';
 
 const App = (props) => {
     return (
-        <div>
+        <div className='application-body'>
             <Switch>
-                <Route exact path="/" component={Home} />
-                <Route path="/About" component={About} />
-                <Route path="/Contact" component={Contact} />
+                <Route exact path='/' component={Landing} />
+                <Route path='/Main' component={Main} />
+                <Route path='/Edit' component={Edit} />
             </Switch>
         </div>
     )

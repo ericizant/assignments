@@ -10,7 +10,19 @@ body {
 }
 
 body {
-    color: black;
+    color: rgba(0, 0, 0, 0.7);
     background-color: navajowhite;
     font-family: 'Rajdhani', sans-serif;
+    font-size: 17px;
+    line-height: 20px;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+}
+
+.application-body {
+    display: block;
+    font-size: 100%;
 }

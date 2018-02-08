@@ -4,7 +4,7 @@ import './Footer.css';
 
 const Footer = (props) => (
     <div className='footer-wrapper'>
-        <h1>Cryptocurrency Price Tracker</h1>
+        <h1 className='footer-title'>Cryptocurrency Price Tracker</h1>
     </div>
 )
 
