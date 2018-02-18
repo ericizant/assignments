@@ -1,7 +1,8 @@
-import React, { Component } from "react";
-import "./Badge.css";
+import React, { Component } from 'react';
 
-export default class Badge extends Component {
+import './Badge.css';
+
+class Badge extends Component {
     constructor(props) {
         super(props);
         let { firstName, lastName, email, birthPlace, phone, favFood, bio } = props;
@@ -38,3 +39,5 @@ export default class Badge extends Component {
         );
     }
 }
+
+export default Badge;

@@ -1,8 +1,9 @@
-import React, { Component } from "react";
-import Form from "../Form";
-import Badge from "./Badge";
+import React, { Component } from 'react';
 
-export default class Badgelist extends Component {
+import Form from '../Form';
+import Badge from './Badge';
+
+class Badgelist extends Component {
     constructor(props) {
         super(props);
         this.state = {
@@ -35,3 +36,5 @@ export default class Badgelist extends Component {
         )
     }
 }
+
+export default BadgeList;
