@@ -1,0 +1,41 @@
+[{
+        "name": "Ben",
+        "hp": 100,
+        "mp": 100,
+        "strength": 100,
+        "defense": 100,
+        "function": "react()"
+    },
+    {
+        "name": "Bob",
+        "hp": 80,
+        "mp": 80,
+        "strength": 80,
+        "defense": 80,
+        "function": "express()"
+    },
+    {
+        "name": "Marcus",
+        "hp": 60,
+        "mp": 60,
+        "strength": 60,
+        "defense": 60,
+        "function": "javascript()"
+    },
+    {
+        "name": "Eric",
+        "hp": 40,
+        "mp": 40,
+        "strength": 40,
+        "defense": 40,
+        "function": "css()"
+    },
+    {
+        "name": "Jacob",
+        "hp": 20,
+        "mp": 20,
+        "strength": 20,
+        "defense": 20,
+        "function": "html()"
+    }
+]

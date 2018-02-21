@@ -1,0 +1,43 @@
+.gameOver-wrapper {
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Anton', sans-serif;
+    background-color: yellow;
+    background-image: url('./GameOver.jpg');
+    background-repeat: repeat;
+    background-size: 25%;
+}
+
+.gameOver-logo {
+    font-size: 8em;
+    font-family: 'Anton', sans-serif;
+    line-height: 1em;
+    padding: 1% 1%;
+}
+
+.gameOver-title {
+    font-size: 3em;
+    text-align: center;
+    color: yellow;
+    background-color: black;
+}
+
+.gameOver-replayGame {
+    font-size: 3em;
+    text-align: center;
+    color: yellow;
+    background-color: black;
+}
+
+.gameOver-link {
+    font-weight: bold;
+    text-decoration: none;
+    color: yellow;
+    margin: auto;
+    transition: all .3s ease;
+}
+
+.gameOver-link:hover {
+    color: crimson;
+    text-decoration: underline;
+}

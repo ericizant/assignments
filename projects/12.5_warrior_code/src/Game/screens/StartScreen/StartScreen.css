@@ -1,0 +1,36 @@
+.startScreen-wrapper {
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Anton', sans-serif;
+    background-color: yellow;
+    background-image: url('./StartScreen.jpg');
+    background-repeat: repeat;
+    background-size: 25%;
+}
+
+.startScreen-logo {
+    font-size: 8em;
+    font-family: 'Anton', sans-serif;
+    line-height: 1em;
+    padding: 1% 1%;
+}
+
+.startScreen-playGame {
+    font-size: 3em;
+    text-align: center;
+    color: yellow;
+    background-color: black;
+}
+
+.startScreen-link {
+    font-weight: bold;
+    text-decoration: none;
+    color: yellow;
+    margin: auto;
+    transition: all .3s ease;
+}
+
+.startScreen-link:hover {
+    color: crimson;
+    text-decoration: underline;
+}

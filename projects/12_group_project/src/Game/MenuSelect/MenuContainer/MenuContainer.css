@@ -1,0 +1,10 @@
+.menu {
+    padding: 20px;
+    width: 100%;
+    height: 50%;
+    background: linear-gradient(to bottom, #6c6eb2 0%, #181870 64%, #000028 100%);
+    border-radius: 8px;
+    border: 1px solid #424542;
+    box-shadow: 4px 4px #e7dfe7, -4px -4px #e7dfe7, 4px -4px #e7dfe7, -4px 4px #e7dfe7, 0 -2px #9c9a9c, -2px 0 #7b757b, 0 2px #424542;
+    overflow: auto;
+}

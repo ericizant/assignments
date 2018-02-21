@@ -1,0 +1,15 @@
+{
+  "characterName": "Beatrix Kiddo",
+  "characterClass": "Assassin",
+  "characterWeapon": "Samurai Sword",
+  "itemsList": ["Healing Potion", "HTML Code"],
+  "spellsList": {
+    "HTML": 1,
+    "CSS": 2,
+    "JS": 3,
+    "Express": 4,
+    "React": 5
+  },
+  "HP": 100,
+  "MP": 20
+}

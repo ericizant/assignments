@@ -1,0 +1,13 @@
+.menu_item_wrapper {
+    margin-bottom: 10px;
+}
+
+.menu_hand {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.menu_hand>img {
+    width: 50px;
+}
