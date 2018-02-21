@@ -1,0 +1,19 @@
+.navbar-wrapper {
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   font-size: 1.5em;
+   line-height: 2em;
+}
+
+.navbar-wrapper>a {
+    color: darkcyan;
+    font-weight: bold;
+    text-decoration: none;
+    margin: .5em;
+}
+
+.navbar-wrapper>a:hover {
+    color: olivedrab;
+    text-decoration: underline;
+}
