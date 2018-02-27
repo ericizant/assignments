@@ -1,0 +1,23 @@
+.issue-container {
+    width: 50%;
+    border: 1px solid black;
+    background-color: lightsteelblue;
+    opacity: 0.9;
+    border-radius: 7px;
+    padding: 1em;
+    margin: 1em;
+}
+
+.edit-and-delete-buttons-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.issue-delete-button {
+    background-color: palegreen;
+}
+
+.issue-edit-button {
+    background-color: palegreen;
+}

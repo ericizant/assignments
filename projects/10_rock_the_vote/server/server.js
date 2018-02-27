@@ -1,16 +1,23 @@
+const bodyParser = require('body-parser');
 const express = require('express');
 const mongoose = require('mongoose');
-const bodyParser = require('body-parser');
+const morgan = require('morgan');
+const issueRoutes = require('./routes/issues.js');
+
+
 const app = express();
-const voteRouter = require('./routes/voteRouter.js');
+const config = require('./config');
+
+let issue = require('./models/issues');
 
 app.use(bodyParser.json());
-app.use('/votes', voteRouter);
+app.use(morgan('dev'));
+app.use('/issue', issueRoutes);
 
-mongoose.connect('mongodb://localhost:27017', () => {
-    console.log('Connected to MongoDB');
+mongoose.connect('mongodb://localhost/issue', (err) => {
+    console.log('Connected to the database');
 });
 
-app.listen(8080, () => {
-    console.log('Connected to port 8080');
+app.listen(config.port, () => {
+    console.log('Listening on port ' + config.port);
 });
