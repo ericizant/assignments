@@ -1,0 +1,14 @@
+.comment-box {
+    width: 30em;
+    height: 5em;
+}
+
+.comment-button {
+    position: relative;
+    width: 10em;
+    height: 2em;
+    font-weight: bold;
+    background-color: powderblue;
+    border: 1px solid black;
+    border-radius: 3px;
+}

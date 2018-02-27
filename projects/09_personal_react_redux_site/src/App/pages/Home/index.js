@@ -12,7 +12,7 @@ const Home = (props) => {
         <div>
             <div className='home-wrapper'>
                 <Header />
-                <img className='bitcoin-pic' src={bitcoinPic} alt='Bitcoin Symbol' />
+                
                 <h2>Enter your crypto currencies:</h2>
                 <h3>Add a coin</h3>
             </div>
