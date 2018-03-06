@@ -1,0 +1,118 @@
+.menuBoxes-container {
+    height: 15vh;
+    display: grid;
+    grid-template-areas: 'characterInfo console enemyInfo';
+    color: black;
+    background-color: yellow;
+}
+
+.menuBox-header {
+    font-family: 'Anton', sans-serif;
+    line-height: 1.5em;
+    text-align: center;
+    color: black;
+    background-color: yellow;
+    border: 1px solid yellow;
+}
+
+.menuBox-body {
+    height: 100%;
+    font-family: 'Quicksand', sans-serif;
+    line-height: 2em;
+    color: yellow;
+    background-color: black;
+    padding: 1em 1em;
+    border: 1px solid yellow;
+}
+
+.profileLine1 {
+    padding: 0 3em;
+}
+
+.menuBox-characterInfo {
+    grid-area: characterInfo;
+    width: 32vw;
+    height: 100%;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.menuBox-console {
+    grid-area: console;
+    width: 36vw;
+    height: 100%;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+#playerHealth-container {
+    width: 250px;
+    height: 30px;
+    display: inline-block;
+    position: relative;
+    color: black;
+    margin-right: 5px;
+    border: 2px solid yellow;
+    border-radius: 3px;
+}
+
+#playerHealth-status {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background: lightgreen;
+}
+
+#playerMagic-container {
+    width: 250px;
+    height: 30px;
+    display: inline-block;
+    position: relative;
+    color: black;
+    margin-right: 20px;
+    border: 2px solid yellow;
+    border-radius: 3px;
+}
+
+#playerMagic-status {
+    position: relative;
+    bottom: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    background: palegreen;
+}
+
+#console-messages {
+    border: black 2px solid
+}
+
+.menuBox-enemyInfo {
+    grid-area: enemyInfo;
+    width: 32vw;
+    height: 100%;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+#enemyHealth-container {
+    width: 250px;
+    height: 30px;
+    display: inline-block;
+    position: relative;
+    color: black;
+    margin-right: 5px;
+    border: 2px solid yellow;
+    border-radius: 3px;
+}
+
+#enemyHealth-status {
+    position: relative;
+    bottom: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    background: palegreen;
+}

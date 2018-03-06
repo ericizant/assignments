@@ -1,0 +1,31 @@
+.header-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100vw;
+    height: 4em;
+    font-family: 'Anton', sans-serif;
+    color: yellow;
+    background-color: black;
+}
+
+.header-wrapper>h1 {
+    font-size: 3em;
+    padding: 0 .5em;
+}
+
+.navbar-wrapper {
+    font-size: 1.5em;
+}
+
+.navbar-wrapper>a {
+    font-weight: bold;
+    text-decoration: none;
+    color: yellow;
+    margin: .5em;
+}
+
+.navbar-wrapper>a:hover {
+    color: crimson;
+    text-decoration: underline;
+}
