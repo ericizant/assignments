@@ -1,0 +1,50 @@
+.commandButtons-wrapper {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 3(auto 1fr);
+  grid-template-areas: 'magic attack item';
+  box-shadow: 0 -5px 5px black;
+  margin: 0;
+  border: 1px solid yellow;
+}
+
+.magic-button {
+  grid-area: magic;
+  width: 32vw;
+  height: 5vh;
+  font-family: 'Anton', sans-serif;
+  font-size: 2em;
+  text-align: center;
+  color: black;
+  background-color: maroon;
+  box-shadow: 0 5px 5px black;
+  border: 1px solid yellow;
+  border-radius: 5px;
+}
+
+.attack-button {
+  grid-area: attack;
+  width: 36vw;
+  height: 5vh;
+  font-family: 'Anton', sans-serif;
+  font-size: 2em;
+  color: black;
+  background-color: maroon;
+  box-shadow: 0 5px 5px black;
+  border: 1px solid yellow;
+  border-radius: 5px;
+}
+
+.item-button {
+  grid-area: item;
+  width: 32vw;
+  height: 5vh;
+  font-family: 'Anton', sans-serif;
+  font-size: 2em;
+  text-align: center;
+  color: black;
+  background-color: maroon;
+  box-shadow: 0 5px 5px black;
+  border: 1px solid yellow;
+  border-radius: 5px;
+}

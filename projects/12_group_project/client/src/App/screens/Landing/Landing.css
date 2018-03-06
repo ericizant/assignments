@@ -1,0 +1,15 @@
+body {
+    /* background-image: url('../../images/login-background.png'); */
+    background-position: center;
+    background-size: cover;
+}
+
+.landing-body {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: relative;
+    /* right: 30%; */
+    opacity: .9;
+    padding: 48px 12px;
+}
